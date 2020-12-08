@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="has-background-grey-dark has-text-light" id="start-game-container">
+        <section class="section">
+            <h2 class="is-size-2 has-text-centered">Reaction game</h1>
+            <h2 class="is-size-4 has-text-centered">Test your reaction time! Click on the button to start. Click when the screen turns green!</h1>
+        </section>
+        
+        <div class="has-text-centered mt-4" id="more-users-button-wrapper">
+            <button class="button" id="start-game">Start</div>
+        </div>
+    </div>
+
+    <a href="#" id="reaction-button">
+        <div class="is-hidden" id="game-window">
+            <h1 class="title has-text-light">Wait for it...</h1>
+            <h2 class="subtitle mt-2 has-text-light">Click when the screen turns green!</h2>
+            <h2 class="subtitle is-size-6 has-text-light">(You can click anywhere on the screen)</h2>
+        </div>
+    </a>
+
+
+    <script src="game.js"></script>
+</body>
+</html>
