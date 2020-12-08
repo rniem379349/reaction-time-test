@@ -40,7 +40,7 @@ function startGame() {
             gameWindow.innerHTML = `
             <h1 class="title has-text-light">Your result: 
                 <h1 class="title has-text-light" style="font-size: 72px;">
-                    ${reactionTime}
+                    ${reactionTime} ms
                 </h1>
             </h2>
             `
