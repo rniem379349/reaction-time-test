@@ -1,8 +1,4 @@
-#start-game-container {
-    height: 100%;
-}
-
-#game-window {
+#start-game-container, #game-window {
     display: flex;
     flex-direction: column;
     width: 100%;
